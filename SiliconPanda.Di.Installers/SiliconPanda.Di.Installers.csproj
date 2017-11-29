@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SiliconPanda.DI.Core\SiliconPanda.DI.Core.csproj" />
+    <ProjectReference Include="..\SiliconPanda.DI\SiliconPanda.DI.csproj" />
+  </ItemGroup>
+
+</Project>
