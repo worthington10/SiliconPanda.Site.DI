@@ -1,7 +1,13 @@
-﻿namespace SiliconPanda.DI.Core
+﻿using System;
+
+namespace SiliconPanda.DI.Core
 {
     public interface IJobRegister
     {
-        T RegisterInstance<T>(T register);
+        void RegisterInstance<T>(T register);
+
+        void RegisteInstanceByInterfaceAndAssemnly(Type interfaceInstaller, string assembly);
+
+        void Build();
     }
 }

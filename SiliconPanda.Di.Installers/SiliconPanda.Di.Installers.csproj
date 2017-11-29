@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="SiliconPanda.Shared.Core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SiliconPanda.DI.Core\SiliconPanda.DI.Core.csproj" />
     <ProjectReference Include="..\SiliconPanda.DI\SiliconPanda.DI.csproj" />
   </ItemGroup>
